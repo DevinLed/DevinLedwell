@@ -109,6 +109,12 @@
     max-height: 1000px;
     max-width: 1000px;
   }
+  #img6 {  
+    border: 7px solid rgb(0, 0, 0);
+    border-radius: 60%;  
+    max-height: 300px;
+    max-width: 300px;
+  } 
   .Educ{
     padding-top: 15rem;
     text-align: center;
@@ -148,4 +154,7 @@
     color: #6e0000;
     border: 1px solid #810000;
     transition: .5s;
+  }
+  .Projects{
+    text-align: center;
   }
