@@ -1,14 +1,13 @@
   .nav_links{
     font-size: 27px;
-    text-align: center;
     border-top: #9e9696;
     position: absolute;
     top: 8px;
-    left: 35%;
+    left: 34%;
     list-style: none;
   }
   .nav_links li{
-    display: inline-block;
+    display: inline;
     padding: 0px 20px;
   }
   .nav_links li a{
@@ -46,10 +45,13 @@
   body {
     background: #cccccc;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20%;
-    background-image: url('img/calvert.jpg'), linear-gradient(to top, rgba(255,0,0,0), rgb(80, 80, 80));
+    padding: 10%;
+    background-image: linear-gradient(to top, grey, white);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:contain;
+    display:flex; 
+    flex-direction:column;
+    min-height: 65vh;
   }
   #img2 {  
     border: 5px solid rgb(0, 0, 0);
@@ -64,12 +66,7 @@
     max-width: 300px;
   }
   .container {
-    margin: 0 auto;
-    max-width: 70rem;
-    width: 80%;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    
+    align-items: center; 
   }
   .center {
     margin-left: auto;
@@ -83,14 +80,16 @@
     margin-right: auto;
     width: 25em;
   }
-  #Quincy{
+  #Self{
     display:flex;
     flex-direction: column;
     align-items: center;
-    text-align: left;
   }
-  #Descrip{
-    padding-top: 50px;
+  .Descrip{
+    width:75%;
+  }
+  #Calvert{
+    text-align: center;
   }
   #imgs4{
     image-resolution: 100%;
@@ -116,7 +115,6 @@
     max-width: 300px;
   } 
   .Educ{
-    padding-top: 15rem;
     text-align: center;
   }
   h1{
@@ -130,7 +128,12 @@
     color:rgb(7, 10, 31);
     text-align: center;
   }
+  .photos{
+    list-style:none;
+    padding:20px;
+  }
   .ul_class2 li{
+    background-color: rgb(203, 209, 211);
     list-style: none;
     margin: 10px 30px;
     display: inline-block;
@@ -141,14 +144,12 @@
     border-radius : 50%;
     transition: .5s;
   }
-  .wrapper{    
+  .wrapper{
     text-align: center;
-    padding-top: 100px;
-    bottom: 0;
+    padding-top: 160px;
   }
   .media{
     padding-right: 23px;
-    bottom: 0;
   }
   .ul_class2 li:hover {
     color: #6e0000;
@@ -157,4 +158,10 @@
   }
   .Projects{
     text-align: center;
+  }
+  main{
+    flex-grow: 1;
+  }
+  footer{
+    height: 90px;
   }
