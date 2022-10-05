@@ -1,10 +1,12 @@
+  .nav_width{
+    width: 100%;
+  }
   .nav_links{
     font-size: 27px;
     border-top: #9e9696;
-    position: absolute;
-    top: 8px;
-    left: 34%;
+    text-align: center;
     list-style: none;
+    align-items: center;
   }
   .nav_links li{
     display: inline;
@@ -45,13 +47,12 @@
   body {
     background: #cccccc;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10%;
     background-image: linear-gradient(to top, grey, white);
     background-repeat: no-repeat;
     background-size:contain;
     display:flex; 
     flex-direction:column;
-    min-height: 65vh;
+    min-height: 80vh;
   }
   #img2 {  
     border: 5px solid rgb(0, 0, 0);
@@ -66,6 +67,7 @@
     max-width: 300px;
   }
   .container {
+    padding-top: 5%;
     align-items: center; 
   }
   .center {
@@ -81,6 +83,7 @@
     width: 25em;
   }
   #Self{
+    padding-top: 5%;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -115,6 +118,7 @@
     max-width: 300px;
   } 
   .Educ{
+    padding-top: 5%;
     text-align: center;
   }
   h1{
@@ -163,5 +167,5 @@
     flex-grow: 1;
   }
   footer{
-    height: 90px;
+    height: auto;
   }
