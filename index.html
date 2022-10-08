@@ -3,25 +3,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Devin Ledwell's Website</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <nav>
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+              <div>
+                <div>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a class="cta" href="mailto:devinledwell@gmail.com?"><button>Contact</button></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        <nav class="nav_width">
             <ul class="nav_links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="education.html">Education</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a class="cta" href="mailto:devinledwell@gmail.com?"><button>Contact</button></a></li>
-            </ul>    
+            </ul>  
         </nav>
     </header>
     <main>
-        <div class="container">
-            <img src="img/self.jpg" id="img2" style="display:block; margin-left: auto; margin-right: auto;"" />
+        <div class="container2">
+            <img class="me-img"src="img/self.jpg" id="img2" style="display:block; margin-left: auto; margin-right: auto;"" />
         </div>
         <div class="intro">
             <h1>Devin Ledwell</h1>
@@ -29,6 +46,8 @@
             <p><b>AMORA - HSBC Canada</b></p>
         </div>
     </main>
+    
+
     <footer>
         <div class="wrapper">
             <div class="media">
@@ -41,5 +60,5 @@
             </div>
         </div>
     </footer>
-</body>
+    </body>
 </html>
