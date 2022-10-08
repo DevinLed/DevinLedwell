@@ -171,9 +171,6 @@ button:hover{
   text-decoration: none;
   transition: color 0.4s ease;
 }
-.nav_width{
-  display: none;
-}
 header{
   display: flex;
   justify-content: end;
@@ -337,33 +334,6 @@ footer{
       border-radius: 13%;  
       max-height: 300px;
       max-width: 300px;
-    } 
-    .nav_width{
-      width: 100%;
-    }
-    .nav_links{
-      font-size: 27px;
-      border-top: #9e9696;
-      text-align: center;
-      list-style: none;
-      align-items: center;
-    }
-    .nav_links li{
-      display: inline;
-      padding: 0px 20px;
-    }
-    .nav_links li a{
-      transition: all 0.3s ease 0s;
-    } 
-    .nav_links li a:hover{
-      color: #7ca3ad
-    }
-    .nav_links li, a, button{
-        align-items: center;
-        font-size: 20px;
-        font-weight: 500;
-        color: #090d33;
-        text-decoration: none;
     }
     button {
       margin-right: auto;
