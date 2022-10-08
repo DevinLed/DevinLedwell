@@ -1,0 +1,45 @@
+<ul class="nav_links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="education.html">Education</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a class="cta" href="mailto:devinledwell@gmail.com?"><button>Contact</button></a></li>
+</ul> 
+
+
+<style>
+@media only screen and (max-width: 768px) {
+.nav_width{
+  display: none;
+}
+}
+@media only screen and (min-width: 768px) {
+    .nav_width{
+      width: 100%;
+    }    
+    .nav_links{
+      font-size: 27px;
+      border-top: #9e9696;
+      text-align: center;
+      list-style: none;
+      align-items: center;
+    }
+    .nav_links li{
+      display: inline;
+      padding: 0px 20px;
+    }
+    .nav_links li a{
+      transition: all 0.3s ease 0s;
+    } 
+    .nav_links li a:hover{
+      color: #7ca3ad
+    }
+    .nav_links li, a, button{
+        align-items: center;
+        font-size: 20px;
+        font-weight: 500;
+        color: #090d33;
+        text-decoration: none;
+    }
+}
+</style>
