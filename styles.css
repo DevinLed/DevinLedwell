@@ -28,15 +28,16 @@
   button {
     margin-right: auto;
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    color: #090d33;
     transition: all 0.3s ease 0s;
     
   }
-  button:hover{
-    color: rgba(0, 31, 169, 0.9)
+  button:hover{    
+    color: white;
+    background-color: rgba(0, 31, 169, 0.9)
   }
   header{
     display: flex;
@@ -139,7 +140,7 @@
   .ul_class2 li{
     background-color: rgb(203, 209, 211);
     list-style: none;
-    margin: 10px 30px;
+    margin: 10px 00px;
     display: inline-block;
     font-size: 20px;
     padding: 20px 20px;
