@@ -70,6 +70,8 @@
   .container {
     padding-top: 5%;
     align-items: center; 
+    max-width: 50%;
+    max-height: 50%;
   }
   .center {
     margin-left: auto;
@@ -169,4 +171,11 @@
   }
   footer{
     height: auto;
+  }
+  @media only screen and (min-width: 768px) {
+    .container {
+      padding-top: 5%;
+      align-items: center; 
+    }
+    
   }
